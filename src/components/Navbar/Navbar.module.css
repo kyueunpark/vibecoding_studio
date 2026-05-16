@@ -1,0 +1,63 @@
+.navbar {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: calc(100% - 40px);
+  max-width: 800px;
+  height: 60px;
+  background-color: var(--card-bg);
+  border: 3px solid var(--border);
+  border-radius: 20px;
+  box-shadow: 6px 6px 0px 0px var(--border);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  padding: 0 30px;
+  transition: var(--transition);
+}
+
+.navbar:hover {
+  transform: translateX(-50%) translateY(-2px);
+  box-shadow: 10px 10px 0px 0px var(--border);
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.2rem;
+  font-weight: 900;
+  color: var(--text);
+  text-transform: uppercase;
+}
+
+.navLinks {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.navLinks a {
+  font-weight: 700;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  transition: var(--transition);
+  padding: 5px 10px;
+  border-radius: 8px;
+}
+
+.navLinks a:hover {
+  background-color: var(--accent);
+  color: var(--text);
+  transform: rotate(-3deg) scale(1.1);
+}
+
+@media (max-width: 600px) {
+  .navLinks {
+    display: none;
+  }
+}

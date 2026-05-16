@@ -1,0 +1,46 @@
+.skills {
+  background-color: var(--bg);
+}
+
+.sectionTitle {
+  text-align: center;
+  margin-bottom: 4rem;
+  font-size: 3rem;
+  color: var(--text);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.skillCloud {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  max-width: 800px;
+}
+
+.skillItem {
+  padding: 12px 25px;
+  border: 3px solid var(--border);
+  border-radius: 12px;
+  font-weight: 800;
+  font-size: 1.1rem;
+  box-shadow: 4px 4px 0px 0px var(--border);
+  transition: var(--transition);
+  cursor: default;
+}
+
+.skillItem:hover {
+  transform: scale(1.1) rotate(3deg);
+  box-shadow: 8px 8px 0px 0px var(--border);
+  z-index: 5;
+}
+
+@media (max-width: 768px) {
+  .sectionTitle {
+    font-size: 2rem;
+  }
+}
