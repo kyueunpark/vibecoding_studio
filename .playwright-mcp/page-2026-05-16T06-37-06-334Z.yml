@@ -1,0 +1,203 @@
+- main [ref=e2]:
+  - generic [ref=e4]:
+    - link "박규은" [ref=e5] [cursor=pointer]:
+      - /url: "#top"
+      - generic [ref=e7]: 박규은
+    - navigation [ref=e8]:
+      - link "About" [ref=e9] [cursor=pointer]:
+        - /url: "#about"
+      - link "Projects" [ref=e10] [cursor=pointer]:
+        - /url: "#projects"
+      - link "Contact" [ref=e11] [cursor=pointer]:
+        - /url: "#contact"
+  - generic [ref=e12]:
+    - generic [ref=e13]:
+      - generic [ref=e14]: Frontend Developer · 지금 새로운 기회를 찾고 있어요
+      - heading "안녕하세요, 박규은 이에요." [level=1] [ref=e16]:
+        - generic [ref=e17]: 안녕하세요,
+        - generic [ref=e18]:
+          - generic [ref=e19]: 박규은
+          - text: 이에요.
+      - paragraph [ref=e21]: 재미있게 만들고, 단단하게 다듬는 개발자.
+      - generic [ref=e22]:
+        - link "프로젝트 보기 →" [ref=e23] [cursor=pointer]:
+          - /url: "#projects"
+          - button "프로젝트 보기 →" [ref=e24]
+        - link "연락하기" [ref=e25] [cursor=pointer]:
+          - /url: "#contact"
+          - button "연락하기" [ref=e26]
+    - generic [ref=e28]:
+      - generic [ref=e29]:
+        - text: TypeScript
+        - generic [ref=e30]: ✦
+      - generic [ref=e31]:
+        - text: React
+        - generic [ref=e32]: ✦
+      - generic [ref=e33]:
+        - text: Next.js
+        - generic [ref=e34]: ✦
+      - generic [ref=e35]:
+        - text: Design Systems
+        - generic [ref=e36]: ✦
+      - generic [ref=e37]:
+        - text: Vibe Coding
+        - generic [ref=e38]: ✦
+      - generic [ref=e39]:
+        - text: Micro Interactions
+        - generic [ref=e40]: ✦
+      - generic [ref=e41]:
+        - text: Tailwind v4
+        - generic [ref=e42]: ✦
+      - generic [ref=e43]:
+        - text: AI Tooling
+        - generic [ref=e44]: ✦
+      - generic [ref=e45]:
+        - text: TypeScript
+        - generic [ref=e46]: ✦
+      - generic [ref=e47]:
+        - text: React
+        - generic [ref=e48]: ✦
+      - generic [ref=e49]:
+        - text: Next.js
+        - generic [ref=e50]: ✦
+      - generic [ref=e51]:
+        - text: Design Systems
+        - generic [ref=e52]: ✦
+      - generic [ref=e53]:
+        - text: Vibe Coding
+        - generic [ref=e54]: ✦
+      - generic [ref=e55]:
+        - text: Micro Interactions
+        - generic [ref=e56]: ✦
+      - generic [ref=e57]:
+        - text: Tailwind v4
+        - generic [ref=e58]: ✦
+      - generic [ref=e59]:
+        - text: AI Tooling
+        - generic [ref=e60]: ✦
+  - generic [ref=e62]:
+    - generic [ref=e63]:
+      - heading "About." [level=2] [ref=e64]
+      - generic [ref=e65]:
+        - generic [ref=e66]: Frontend Developer
+        - generic [ref=e67]: Seoul, KR
+        - generic [ref=e68]: 구직 중
+    - generic [ref=e69]:
+      - paragraph [ref=e70]: 안녕하세요! 사용자가 한 번 더 클릭하고 싶어지는 인터페이스를 좋아하는 프론트엔드 개발자 박규은입니다.
+      - paragraph [ref=e71]: 복잡한 문제를 작고 명료한 컴포넌트로 쪼개는 일에 시간을 많이 씁니다. React/Next.js 생태계에서 일하며, 디자인 시스템과 마이크로 인터랙션, 그리고 성능 최적화에 관심이 많습니다.
+      - paragraph [ref=e72]: 사이드 프로젝트로는 작은 도구들을 만들어 직접 사용해보는 걸 좋아해요. 지금은 AI 도구를 일상 워크플로우에 녹이는 실험을 하고 있습니다.
+      - generic [ref=e73]:
+        - heading "기술 스택" [level=3] [ref=e74]
+        - generic [ref=e75]:
+          - generic [ref=e76]: TypeScript
+          - generic [ref=e77]: React
+          - generic [ref=e78]: Next.js
+          - generic [ref=e79]: Tailwind CSS
+          - generic [ref=e80]: Node.js
+          - generic [ref=e81]: PostgreSQL
+          - generic [ref=e82]: Supabase
+          - generic [ref=e83]: Figma
+          - generic [ref=e84]: Vercel
+  - generic [ref=e85]:
+    - generic [ref=e86]:
+      - generic [ref=e87]:
+        - heading "Projects." [level=2] [ref=e88]
+        - paragraph [ref=e89]: 취미와 실험이 가끔 진짜 제품이 됩니다. 최근에 만든 것들이에요.
+      - generic [ref=e90]: 총 4개
+    - generic [ref=e91]:
+      - generic [ref=e92]:
+        - generic [ref=e93]:
+          - generic [ref=e94]:
+            - generic [ref=e95]: 🎨
+            - generic [ref=e96]: "01"
+          - heading "Vibe Studio" [level=3] [ref=e97]
+          - paragraph [ref=e98]: 팀이 함께 무드보드를 만들고 컬러/타이포 토큰을 자동으로 추출하는 협업 도구.
+        - generic [ref=e100]:
+          - generic [ref=e101]: Next.js
+          - generic [ref=e102]: TypeScript
+          - generic [ref=e103]: Supabase
+          - generic [ref=e104]: Tailwind
+        - generic [ref=e105]:
+          - link "GitHub" [ref=e106] [cursor=pointer]:
+            - /url: https://github.com/example/vibe-studio
+            - img [ref=e107]
+            - text: GitHub
+          - link "Demo" [ref=e109] [cursor=pointer]:
+            - /url: https://example.com/vibe-studio
+            - text: Demo
+            - img [ref=e110]
+      - generic [ref=e113]:
+        - generic [ref=e114]:
+          - generic [ref=e115]:
+            - generic [ref=e116]: 🐣
+            - generic [ref=e117]: "02"
+          - heading "PomoPet" [level=3] [ref=e118]
+          - paragraph [ref=e119]: 포모도로 타이머를 돌릴수록 픽셀 펫이 성장하는 사이드 프로젝트. PWA로도 동작.
+        - generic [ref=e121]:
+          - generic [ref=e122]: React
+          - generic [ref=e123]: Vite
+          - generic [ref=e124]: IndexedDB
+          - generic [ref=e125]: PWA
+        - link "GitHub" [ref=e127] [cursor=pointer]:
+          - /url: https://github.com/example/pomopet
+          - img [ref=e128]
+          - text: GitHub
+      - generic [ref=e130]:
+        - generic [ref=e131]:
+          - generic [ref=e132]:
+            - generic [ref=e133]: 🍳
+            - generic [ref=e134]: "03"
+          - heading "Recipe Roulette" [level=3] [ref=e135]
+          - paragraph [ref=e136]: 냉장고 재료를 입력하면 AI가 레시피를 추천해주는 미니 웹앱. 음성 입력 지원.
+        - generic [ref=e138]:
+          - generic [ref=e139]: Next.js
+          - generic [ref=e140]: OpenAI
+          - generic [ref=e141]: Web Speech API
+        - generic [ref=e142]:
+          - link "GitHub" [ref=e143] [cursor=pointer]:
+            - /url: https://github.com/example/recipe-roulette
+            - img [ref=e144]
+            - text: GitHub
+          - link "Demo" [ref=e146] [cursor=pointer]:
+            - /url: https://example.com/recipe-roulette
+            - text: Demo
+            - img [ref=e147]
+      - generic [ref=e150]:
+        - generic [ref=e151]:
+          - generic [ref=e152]:
+            - generic [ref=e153]: 📊
+            - generic [ref=e154]: "04"
+          - heading "Tiny Charts" [level=3] [ref=e155]
+          - paragraph [ref=e156]: 한 줄로 import 해서 쓰는 가벼운 React 차트 라이브러리. SVG 기반, 의존성 0.
+        - generic [ref=e158]:
+          - generic [ref=e159]: TypeScript
+          - generic [ref=e160]: SVG
+          - generic [ref=e161]: Rollup
+        - link "GitHub" [ref=e163] [cursor=pointer]:
+          - /url: https://github.com/example/tiny-charts
+          - img [ref=e164]
+          - text: GitHub
+  - generic [ref=e166]:
+    - generic [ref=e168]:
+      - heading "함께 만들어볼래요?" [level=2] [ref=e169]
+      - paragraph [ref=e170]: 새로운 팀, 흥미로운 사이드 프로젝트, 그리고 좋은 커피 한 잔의 제안을 환영합니다.
+      - generic [ref=e171]:
+        - link "Email hello@example.com" [ref=e172] [cursor=pointer]:
+          - /url: mailto:hello@example.com
+          - generic [ref=e173]:
+            - img [ref=e174]
+            - text: Email
+          - generic [ref=e177]: hello@example.com
+        - link "GitHub @your-handle" [ref=e178] [cursor=pointer]:
+          - /url: https://github.com/your-handle
+          - generic [ref=e179]:
+            - img [ref=e180]
+            - text: GitHub
+          - generic [ref=e182]: "@your-handle"
+        - link "LinkedIn in/your-handle" [ref=e183] [cursor=pointer]:
+          - /url: https://www.linkedin.com/in/your-handle
+          - generic [ref=e184]:
+            - img [ref=e185]
+            - text: LinkedIn
+          - generic [ref=e187]: in/your-handle
+    - generic [ref=e188]: © 2026 박규은. Made with ♥ + Next.js + Tailwind.
