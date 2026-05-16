@@ -5,11 +5,11 @@ const Skills = () => {
     { name: 'React', color: 'var(--primary)' },
     { name: 'Next.js', color: 'var(--secondary)' },
     { name: 'TypeScript', color: 'var(--accent)' },
-    { name: 'Node.js', color: 'var(--lime)' },
-    { name: 'CSS Modules', color: 'var(--lavender)' },
-    { name: 'PostgreSQL', color: 'var(--primary)' },
-    { name: 'AWS', color: 'var(--secondary)' },
-    { name: 'Figma', color: 'var(--accent)' },
+    { name: 'CSS Modules', color: 'var(--lime)' },
+    { name: 'UI/UX Design', color: 'var(--lavender)' },
+    { name: 'Performance', color: 'var(--primary)' },
+    { name: 'Responsive', color: 'var(--secondary)' },
+    { name: 'Animations', color: 'var(--accent)' },
   ];
 
   return (

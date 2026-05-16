@@ -1,0 +1,80 @@
+.contact {
+  background-color: var(--lavender);
+  border-top: 3px solid var(--border);
+  border-bottom: 3px solid var(--border);
+  text-align: center;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 3.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 3rem;
+  opacity: 0.8;
+}
+
+.actions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+.mailBtn {
+  display: inline-block;
+  padding: 20px 50px;
+  background-color: var(--primary);
+  color: white;
+  border: 4px solid var(--border);
+  border-radius: 20px;
+  font-weight: 900;
+  font-size: 1.3rem;
+  box-shadow: 8px 8px 0px 0px var(--border);
+  transition: var(--transition);
+}
+
+.mailBtn:hover {
+  transform: translate(-4px, -4px);
+  box-shadow: 15px 15px 0px 0px var(--border);
+  background-color: var(--secondary);
+}
+
+.socials {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.socialLink {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--card-bg);
+  border: 3px solid var(--border);
+  border-radius: 50%;
+  font-weight: 900;
+  box-shadow: 4px 4px 0px 0px var(--border);
+  transition: var(--transition);
+}
+
+.socialLink:hover {
+  transform: rotate(15deg) scale(1.1);
+  background-color: var(--accent);
+  box-shadow: 6px 6px 0px 0px var(--border);
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 2.2rem;
+  }
+}
