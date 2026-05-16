@@ -1,0 +1,58 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@theme {
+  --color-cream: #fff8ec;
+  --color-ink: #14110f;
+  --color-ink-soft: #4a4540;
+  --color-pink: #ff5fa2;
+  --color-blue: #4d6dff;
+  --color-yellow: #ffd84d;
+  --color-lime: #c5f04a;
+  --color-lavender: #c7b8ff;
+  --color-card: #ffffff;
+  --color-border-soft: #ece6da;
+
+  --font-display: var(--font-display), "Pretendard", system-ui, sans-serif;
+  --font-sans: "Pretendard", "Inter", system-ui, -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+
+  --radius-blob: 28px;
+
+  --animate-float: float 9s ease-in-out infinite;
+  --animate-marquee: marquee 28s linear infinite;
+  --animate-wiggle: wiggle 1.4s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  33% { transform: translate(40px, -30px) scale(1.05); }
+  66% { transform: translate(-30px, 20px) scale(0.97); }
+}
+
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+@keyframes wiggle {
+  0%, 100% { transform: rotate(-2deg); }
+  50% { transform: rotate(2deg); }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-cream);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background: var(--color-pink);
+  color: var(--color-cream);
+}
